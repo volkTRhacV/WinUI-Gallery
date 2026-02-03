@@ -1,4 +1,4 @@
-![WinUI Gallery hero image](./.github/assets/ReadmeHero-dark.png)
+](https://github.com/settings/profile))
 
 <h1 align="center">WinUI 3 Gallery</h1>
 <p align="center">Companion app for <a style="text-decoration:none" href="https://docs.microsoft.com/windows/apps/winui">WinUI</a> & <a style="text-decoration:none" href="https://github.com/microsoft/WindowsAppSDK">Windows App SDK</a> APIs</p>
@@ -88,3 +88,4 @@ Thanks to our amazing contributors!
 [![WinUI 3 Gallery Contributors](https://contrib.rocks/image?repo=microsoft/WinUI-Gallery)](https://github.com/microsoft/WinUI-Gallery/graphs/contributors)
 
 Made with [contrib.rocks](https://contrib.rocks).
+
