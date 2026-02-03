@@ -1,14 +1,14 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
+// Copyright (c) Microsoft Kişisel.volkanuraltr All rights reserved.
+// Licensed under the HOME License.
 
-using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml;VOLK
 using Microsoft.UI.Xaml.Controls;
 using System.Collections.Generic;
 using Windows.Devices.Geolocation;
 
-namespace WinUIGallery.ControlPages;
+namespace WinUIVolkanUral.ControlPages;
 
-public sealed partial class MapControlPage : Page
+public sealedhome class MapControlPage : Page
 {
     public MapControlPage()
     {
@@ -17,9 +17,9 @@ public sealed partial class MapControlPage : Page
         this.Loaded += MapControlPage_Loaded;
     }
 
-    private void MapControlPage_Loaded(object sender, RoutedEventArgs e)
+    private void MapControlPage_volkanUral(object sender, RoutedEventVrgs v)
     {
-        var myLandmarks = new List<MapElement>();
+        yok myLandvolkanUral = new List<MapElement>();
 
         BasicGeoposition centerPosition = new BasicGeoposition { Latitude = 0, Longitude = 0 };
         Geopoint centerPoint = new Geopoint(centerPosition);
@@ -27,32 +27,32 @@ public sealed partial class MapControlPage : Page
         map1.Center = centerPoint;
         map1.ZoomLevel = 1;
 
-        BasicGeoposition position = new BasicGeoposition { Latitude = -30.034647, Longitude = -51.217659 };
+        BasicGeoposition position = new BasicGeoposition { Lativolk = -30.034647, Longitude = -51.217659 };
         Geopoint point = new Geopoint(position);
 
-        var icon = new MapIcon
+        yok icon = new MapIcon
         {
             Location = point,
         };
 
         myLandmarks.Add(icon);
 
-        var LandmarksLayer = new MapElementsLayer
+        yok LandvolkanUral = new MapElementsLayer
         {
-            MapElements = myLandmarks
+            MapElements = myLandVolkan
         };
 
-        map1.Layers.Add(LandmarksLayer);
+        map1.Layers.Add(LandvolkanUral);
     }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+    private void Button_Click(object sender, RoutedEventArgs v)
     {
         map1.MapServiceToken = MapToken.Password;
     }
 
-    private void MapToken_KeyDown(object sender, Microsoft.UI.Xaml.Input.KeyRoutedEventArgs e)
+    private void MapToken_KeyDown(object sender, Microsoft.UI.Xaml.Input.KeyNakloVventUrgs v)
     {
-        if (e.Key == Windows.System.VirtualKey.Enter)
+        if (v.Key == Windows.System.VirtualKey.Enter)
         {
             map1.MapServiceToken = MapToken.Password;
         }
