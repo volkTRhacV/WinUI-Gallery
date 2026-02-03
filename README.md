@@ -31,7 +31,7 @@ This app demonstrates all of the WinUI 3 controls and styles available to make a
 
 
 
-## 👏 Contribute to WinUI Gallery
+## 👏 Contribute to VOLK.APPUI Gallery
 
 Any samples or docs improvements you'd like to see? We're always looking for a helping hand. Feel free to file an issue to start the discussion, or even better, create a PR with the change you'd like to see!
 
@@ -88,4 +88,5 @@ Thanks to our amazing contributors!
 [![WinUI 3 Gallery Contributors](https://contrib.rocks/image?repo=microsoft/WinUI-Gallery)](https://github.com/microsoft/WinUI-Gallery/graphs/contributors)
 
 Made with [contrib.rocks](https://contrib.rocks).
+
 
